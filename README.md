@@ -167,12 +167,10 @@ We thank the following projects for inspiration and foundational tools:
 - [Jina Read](https://github.com/jina-ai/reader) - Jina read provides a simple and efficient way to extract text from given urls.
 
 
-## 🌟 Misc
+## ⭐ Star History
 
 <div align="center">
 [![Star History Chart](https://api.star-history.com/svg?repos=D2I-ai/agentic_deep_research&type=Date)](https://star-history.com/#D2I-ai/agentic_deep_research&Date)
-
-
 </div>
 
 
