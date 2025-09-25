@@ -170,7 +170,7 @@ We thank the following projects for inspiration and foundational tools:
 ## ⭐ Star History
 
 <div align="center">
-[![Star History Chart](https://api.star-history.com/svg?repos=D2I-ai/agentic_deep_research&type=Date)](https://star-history.com/#D2I-ai/agentic_deep_research&Date)
+<img src="https://api.star-history.com/svg?repos=D2I-ai/agentic_deep_research&type=Date" alt="Star History Chart">
 </div>
 
 
