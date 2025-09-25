@@ -90,10 +90,10 @@ You need to edit the `_settings.py` file and provide your API key. You need to p
    ```python
     APIKeys = {
         "dashscope_api_key": "your dashscope api key",
-        "serper_api": "",
+        "serper_api": "your serper api key",
         "jina_api_key": "your jina api key",
-        "tavily_api_key": "",
-        "firecrawl_api_key": ""
+        "tavily_api_key": "your tavily api key",
+        "firecrawl_api_key": "your firecrawl api key"
     }
    ```
 
@@ -118,7 +118,7 @@ python agent/deep_research_demo.py
 
 Our agentic deep research achieve strong results on multi-hop QA and report generation tasks. Below are accuracy scores on public benchmarks (↑ is better):
 
-| **评测模型/系统**                  | **HotpotQA_dev_subset** | **Musique_test_subset** | **Bamboogle** |
+| **Models**                  | **HotpotQA_dev_subset** | **Musique_test_subset** | **Bamboogle** |
 |:----------------------------------:|:-----------------------:|:-----------------------:|:-------------:|
 | qwen2.5-7b                         | 30.00%                  | 13.00%                  | 36.00%        |
 | qwen2.5-max                        | 60.00%                  | 25.00%                  | 74.40%        |
@@ -166,7 +166,14 @@ We thank the following projects for inspiration and foundational tools:
 - [Qwen Agent](https://github.com/QwenLM/Qwen-Agent) - Qwen agent is a powerful LLM agent that provides a simple and intuitive interface for users to implement different agent systems.
 - [Jina Read](https://github.com/jina-ai/reader) - Jina read provides a simple and efficient way to extract text from given urls.
 
-## 📬 Contact
+
+## 🌟 Misc
+
+<div align="center">
+[![Star History Chart](https://api.star-history.com/svg?repos=D2I-ai/agentic_deep_research&type=Date)](https://star-history.com/#D2I-ai/agentic_deep_research&Date)
+
+
+</div>
 
 
 ## 📝 License
