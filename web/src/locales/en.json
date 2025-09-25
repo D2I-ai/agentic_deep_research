@@ -1,0 +1,42 @@
+{
+    "menu": {
+        "title": "Alibaba Cloud",
+        "home": "Sport AI",
+        "menu1": "DeepResearch"
+    },
+    "index": {
+        "title": "Welcome to ChatBI assistant by Apsara, Alibaba Cloud",
+        "subtitle": "Hi 😀, I am your ChatBI assistant, focusing on data QA and data analysis.",
+        "subtitle2": "No database available. Please select a database from the Data Space",
+        "errorText": "We encountered some issues, please try again later~",
+        "reset": "New Session",
+        "hasSql1": "",
+        "hasSql2": "has been selected, please type your question and chat with the assistant.",
+        "hasSpeak": "😊 Let's start a conversation on the database!",
+        "input": "type you question here",
+        "choose": "Select instance",
+        "moreModal": "Multiple models (up to two)"
+    },
+    "btn": {
+        "stream": "Streaming",
+        "isSearch": "RAG",
+        "chinese": "Chinese",
+        "english": "English",
+        "reset": "Clean Window",
+        "changeSql": "Upload your custom database",
+        "add": "add",
+        "delete": "delete",
+        "edit": "edit",
+        "submit": "submit",
+        "cancel": "cancel",
+        "confirm": "confirm",
+        "search": "search",
+        "analysis": "analysis",
+        "addTable": "添加表"
+    },
+    "data": {
+        "title": "To use the Feitian ChatBI data Q&A analysis service, you need to associate it with your database on Alibaba Cloud or locally",
+        "subtitle": "Hi 😀 Before starting to use, please select the database you need first",
+        "waitText":"Please wait ..."
+    }
+}

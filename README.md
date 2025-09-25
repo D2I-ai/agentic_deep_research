@@ -66,7 +66,7 @@ WEBSEARCH_API = ("jina")  # or "tavily", "firecrawl", "local_jina", "custom"
 
 💡 Tips: 
 1. We recommend [Jina](https://jina.ai/) for its cost-efficiency and excellent content extraction. You can deploy [Jina Read](https://github.com/jina-ai/reader) locally for full control. 
-2. If you want to choose free_serper_api, you need to set the WEBSEARCH_API to `custom`.
+2. If you want to choose serper_api, you need to set the WEBSEARCH_API to `custom`.
 
 
 ### 3. Installation and Configuration

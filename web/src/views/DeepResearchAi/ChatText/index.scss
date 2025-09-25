@@ -1,0 +1,98 @@
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+.message-text .btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 16px;
+  background-color: #666;
+  margin-left: 4px;
+  margin-bottom: -2px;
+  animation: blink 1s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@mixin text-overflow {
+  max-width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.markdown-body {
+  background-color: #f6f6f9 !important;
+  margin-top: -10px;
+}
+.markdown-body h1:first-of-type { margin-top: 0 !important; }
+
+.pover {
+  width: 400px;
+  padding: 5px 10px;
+  overflow: hidden;
+
+  h3 {
+    // @include text-overflow;
+    margin-bottom: 5px;
+  }
+
+  span {
+    white-space: pre-wrap;
+    font-size: 13px;
+  }
+
+  a {
+    display: block;
+    margin-top: 5px;
+    color: #0057ff;
+    font-size: bold;
+    @include text-overflow;
+
+    &:hover {
+      color: #0057ff;
+      text-decoration: underline;
+    }
+  }
+}
+
+.chat_sql {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  p {
+    display: inline-flex;
+    font-size: 13px;
+    color: #111;
+    cursor: pointer;
+    transition: color 0.1s;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: rgba(232, 232, 232, 0.5);
+    color: #5e5e5e;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+}
+
+.data_img {
+  max-width: 50%;
+  object-fit: cover;
+}

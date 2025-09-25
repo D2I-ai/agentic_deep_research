@@ -1,0 +1,41 @@
+/* InferenceSidebar.css */
+.slide-in-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+
+.slide-in-exit {
+  transform: translateX(0);
+}
+
+.slide-in-exit-active {
+  transform: translateX(-100%);
+  transition: transform 300ms;
+}
+
+.inter-bot-avatar {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("@/assets/img/bot.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-right: 8px;
+    background-color: #fff;
+    padding: 4px;
+  }
+}
